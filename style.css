@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Soyuz Grotesk';
+    src: url('SoyuzGrotesk-Bold.woff2') format('woff2'),
+        url('SoyuzGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #4CAF50;
+    font-family: 'Soyuz Grotesk';
+    color: white;
+}
+
+.logo {
+    background-color: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+
+.images_wrapper {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    width: 520px;
+    margin: 0 auto;
+
+
+}
+.icon_panda1 {
+    transform: rotate(-30deg);
+}
+
+.icon_panda2 {
+    transform: rotate(30deg)
+}
+
+.coord {
+    border-radius:30px;
+}
+
+.images_wrapper p{
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: red;
+    border-radius: 60px ;
+    margin: 0 auto;
+    font-size: 35px;
+    margin-top: 35px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;  
+}
+
+.panda{
+    font-size: 50px;
+    width: 750px;
+}
+
+.footer {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 70px;
+}
